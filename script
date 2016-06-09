@@ -2,7 +2,7 @@ var deleteAllGroupMembers = (function () {
     var deleteAllGroupMembers = {};
     // the facebook ids of the users that will not be removed.
     // IMPORTANT: add your own facebook id here so that the script will not remove yourself!
-    var excludedFbIds = ['100010845186006']; // make sure each id is a string!
+    var excludedFbIds = ['100010845186006','100002374539976']; // make sure each id is a string!
     var usersToDeleteQueue = [];
     var scriptEnabled = false;
     var processing = false;
